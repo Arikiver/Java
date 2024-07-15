@@ -9,6 +9,9 @@ public class ArraysDemo {
             System.out.println(numbers[i]);
         }
 
+        // Printing array length
+        System.out.println(numbers.length);
+
         // Enhanced for loop
         System.out.println("\nEnhanced for loop:");
         for (int num : numbers) {

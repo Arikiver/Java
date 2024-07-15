@@ -74,7 +74,7 @@ public class OperatorsDemo {
         System.out.println();
 
         // 7. Ternary Operator
-        System.out.println("Ternary Operator:");
+        System.out.println("Ternary Operator:"); // Short hand if...else
         int e = 10, f = 20;
         int result = (e > f) ? e : f; // If e is greater than f, result is e, else f
         System.out.println("Result of (e > f) ? e : f: " + result);

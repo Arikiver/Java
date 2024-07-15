@@ -48,5 +48,22 @@ public class Strings {
         // 11. Printing boolean values
         boolean isJavaFun = true;
         System.out.println("Is Java fun? " + isJavaFun);
+
+        // 12. Printing String length
+        String txt = "Hello World";
+        System.out.println("The length of the txt string is: " + txt.length());
+
+        // 13. To upper or lower case
+        System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
+        System.out.println(txt.toLowerCase());   // Outputs "hello world"
+
+        // 14. to locate a substring
+        String findTxt = "Please locate where 'locate' occurs!";
+        System.out.println(findTxt.indexOf("locate")); // Outputs 7
+
+        // 15. String concatenation
+        String firstName = "John ";
+        String lastName = "Doe";
+        System.out.println(firstName.concat(lastName));
     }
 }
